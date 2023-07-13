@@ -1,0 +1,103 @@
+/*Media Queries*/
+
+@media screen and (max-width:991px){
+        .nav-toggle{
+            display: block;
+            margin-right: 20px;
+        }
+        .nav-links{
+            display: none;
+        }
+        .ovr-pic{
+            display: none;
+        }
+        .examples-area{
+            gap: 20px;
+        }
+        .examples-card{
+            width:48%;
+            height: 180px;
+        }
+        .cta-section{
+            padding-block: 60px;
+        }
+        h3{
+            font-size: 1.2rem;
+        }
+}
+
+@media screen and (max-width:767px){
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        width: 100vw;
+        text-align: center;
+    }
+    .primary-button{
+        width: 100%;
+    }
+    .cta-section-container{
+        padding-right: 200px;
+    }
+    .p2{
+        margin: 30px;
+    }
+    .features-card{
+        min-width: 48%;
+    }
+    .footer-cn{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .cg{
+        margin-bottom: 0px;
+    }
+    .examples-header{
+        text-align: center;
+        min-width:48%;
+    }
+    .subfooter-container{
+        gap: 30px;
+    }
+    
+.cta-section-container{
+    flex-direction: column;
+}
+.big-s{
+    flex-direction: column;
+}
+.big-s img{
+    width: 100%;
+}
+#opt{
+    flex-direction: column-reverse;
+}
+}
+
+@media screen and (max-width:479px){
+     :root{
+        --padding-inline-section:10px;
+    }
+    h1{
+        font-size: 2rem;
+    
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    .features-area{
+        margin-left: 130px;
+    }
+    .features-card{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
