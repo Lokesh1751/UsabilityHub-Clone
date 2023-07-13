@@ -28,7 +28,7 @@
             <a class="company-logo" href="#">
 <img src="./assets/asset 1.png" alt="company logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="nl" >
 <ul class="flex">
     <li><a href="#" class="hover-links">Products</a></li>
     <li><a href="#" class="hover-links">Customer</a></li>
@@ -38,7 +38,7 @@
     <li><a href="#" class="hover-links primary-button">Sign up</a></li>
 </ul>
             </div>
-            <a href="#" class="nav-toggle hover-links">
+            <a href="#" class="nav-toggle hover-links" id="n-links">
                 <i class="fa-solid fa-bars"></i>
             </a>
         </div>
@@ -298,5 +298,12 @@ Do visitors understand what a page is about?
     </div>
 
     <script src="https://kit.fontawesome.com/cf5e0ac598.js" crossorigin="anonymous"></script>
+    <script>
+const togglebtn=document.getElementById('n-links');
+const navlinks=document.getElementById('nl');
+togglebtn.addEventListener('click',()=>{
+    navlinks.classList.toggle('active');
+})
+    </script>
 </body>
 </html>
