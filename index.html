@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="icon" href="./assets/logo.jpg">
+    <link rel="stylesheet" href="media-queries.css">
 
 </head>
 <body>
@@ -33,10 +34,13 @@
     <li><a href="#" class="hover-links">Customer</a></li>
     <li><a href="#" class="hover-links">Pricing</a></li>
     <li><a href="#" class="hover-links">Resources</a></li>
-    <li><a href="signin.html" class="hover-links secondary-button">Sign in</a></li>
+    <li><a href="index2.html" class="hover-links secondary-button">Sign in</a></li>
     <li><a href="#" class="hover-links primary-button">Sign up</a></li>
 </ul>
             </div>
+            <a href="#" class="nav-toggle hover-links">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
     </nav>
 
@@ -137,14 +141,14 @@
     <section class="big-feature-section">
         <div class="container flex big-s">
 <img src="./assets/asset 18.png" alt="">
-<div class="big-f-r">
+<div class="big-f-r" >
     <h4>Efforless validation for</h4>
     <h3>Design Professionals</h3>
     <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful experiences for your users.</p>
 </div>
 
         </div>
-        <div class="container flex big-s">
+        <div class="container flex big-s " id="opt">
             <div class="big-f-r">
                 <h4>Optimisation for</h4>
                 <h3>Marketers</h3>
@@ -153,7 +157,7 @@
             <img src="./assets/asset 21.png" alt="">
                     </div>
 
-                    <div class="container flex big-s">
+                    <div class="container flex big-s" >
                         <img src="./assets/asset 24.png" alt="">
                         <div class="big-f-r">
                             <h4>Easier decision making for</h4>
@@ -173,7 +177,7 @@
                 <a href="#" class="hover-links secondary-button seeal" >See more examples<i class="fa-solid fa-right-long"></i></a>
                 </div>
         </div>
-        <div class="examples-area flex">
+        <div class="examples-area">
 <a href="#" class="examples-card e0">
     <h3 class="card-text">
 Can users complete a task in my software interface?
@@ -203,7 +207,7 @@ Do visitors understand what a page is about?
     <section class="cta-section">
         <div class=" flex cta-section-container">
            <div style="margin-left: 170px;" class="inva">
-            <h2 style="color: white;">No participants?
+            <h2 style="color: white;padding-top: 30px;">No participants?
                 No problem.</h2>
             <p>Our integrated panel allows you to quickly and affordably recruit research participants that precisely match your target audience.</p>
             <a href="#" class="primary-button">Get Started</a>
@@ -226,13 +230,13 @@ Do visitors understand what a page is about?
                     </ul>
                 </div>
             </div>
-<div class="btn-div">
-    <a href="#" class="hover-links primary-button">Try the panel calculator</a> <span style="color: rgb(188, 180, 180); margin-left: 20px; margin-right: 20px;">or</span>
-    <a href="#" class="hover-links secondary-button">Learn more</a> 
+<div class="btn-div" style="padding-bottom: 30px;">
+    <a href="#" class="hover-links primary-button p1">Try the panel calculator</a> <span style="color: rgb(188, 180, 180); margin-left: 20px; margin-right: 20px;">or</span>
+    <a href="#" class="hover-links secondary-button p2">Learn more</a> 
 </div>
            </div>
            </div>
-           <img src="./assets/asset 40.png" alt="">
+           <img src="./assets/asset 40.png" alt="" class="ovr-pic">
         </div>
     </section>
 
@@ -247,11 +251,11 @@ Do visitors understand what a page is about?
     </section>
     <!--Footer Section-->
     <footer class="footer">
-<div class="container flex footer-cn">
+<div class="container footer-cn">
 <a href="#" class="company-logo cg">
     <img src="./assets/asset 1.png" alt="company logo">
 </a>
-<div class="link-column">
+<div class="link-column flex">
     <h4>Product</h4>
     <a href="#" class="hover-links">Overview</a>
     <a href="#" class="hover-links">Pricing</a>
@@ -260,7 +264,7 @@ Do visitors understand what a page is about?
     <a href="#" class="hover-links">Status Page</a>
 
 </div>
-<div class="link-column">
+<div class="link-column flex">
     <h4>Methodologies</h4>
     <a href="#" class="hover-links">Card Sorting</a>
     <a href="#" class="hover-links">Prototype Testing</a>
@@ -269,7 +273,7 @@ Do visitors understand what a page is about?
     <a href="#" class="hover-links">Five second tests</a>
 
 </div>
-<div class="link-column">
+<div class="link-column flex">
     <h4>Resources</h4>
     <a href="#" class="hover-links">Blog</a>
     <a href="#" class="hover-links">Examples</a>
