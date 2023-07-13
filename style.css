@@ -71,6 +71,7 @@ width: 200px;
 }
 .nav-links{
     flex-basis: 730px ;
+    position: relative;
 }
 
 .nav-links ul{
@@ -79,6 +80,8 @@ width: 200px;
 }
 .nav-toggle{
     display: none;
+    z-index: 1;
+
 }
 .hover-links{
     color: var(--primary-text-color);
